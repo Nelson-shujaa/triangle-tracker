@@ -5,5 +5,8 @@ margin-top: 20px;
   text-align: center;
 }
 body {
-  background-color: black;
+  background: url("../images/chess.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
