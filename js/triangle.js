@@ -34,13 +34,14 @@ function myFunction() {
      if (a==b && b==c && a==c) {
        alert("This is an equilateral triangle.");
    }
+   else if ((a*a) + (b*b) == c*c) {
+    alert("This is a right angled triangle")
+
+  }
     else if (a!=b && b!=c && a!=c){
      alert("This is a scalene triangle.")
   }
-    else if ((a*a) + (b*b) == c*c) {
-     alert("This is a right angled triangle")
-
-   }
+    
   else{
   alert("This is an isoceles triangle.")
   }
