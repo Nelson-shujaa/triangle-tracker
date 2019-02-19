@@ -4,25 +4,30 @@
     <meta ="utf-8">
     <title>Triangle Tracker</title>
     <script type="text/javascript" src="js/triangle.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
-    <h1>Triangle Tracker</h1>
-    <p>Welcome</p>
-    <link rel="stylesheet" type="text/css" href="css/triangle.css">
-
+    <h1 id="h1">Triangle Tracker</h1>
+    <div class="text">
+      <h2><span>Welcome to triangle tracker</span></h2>
+      <p>The tracker is designed to match values to triangles</p>
+      <p>Here are the guidlines;</p><ul>
+        <li>Enter first value.</li>
+        <li>Enter second value.</li>
+        <li>Enter last value.</li>
+        <li>Click on submit.</li>
+      </ul>
+    </div>
     <div class="form">
       <form name="formx">
         <label for="First value"></label><br>
-        <input type="number" name="firstvalue" value="First value"><br>
+        <input type="number" name="firstvalue" value="First value" placeholder="First value"><br>
         <label for="Second value"></label><br>
-        <input type="number" name="secondvalue" value="second value"><br>
+        <input type="number" name="secondvalue" value="second value"placeholder="Second value"><br>
         <label for="Last Value"></label><br>
-        <input type="number" name="lastvalue" value="Last value"><br>
+        <input type="number" name="lastvalue" value="Last value" placeholder="Last value"><br>
         <input id="button" type="button" value="submit" onclick="myFunction()">
      </form>
    </div>
-
-
-
   </body>
 </html>
